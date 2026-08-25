@@ -48,4 +48,4 @@ footer{background:#111;color:#eee;padding:60px 5vw 35px;display:grid;grid-templa
 const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 window.addEventListener('scroll',()=>{const y=window.scrollY;document.querySelector('.hero img').style.transform=`scale(1.02) translateY(${y*.05}px)`});
 </script>
-</body></html># AtelierCarmenFotografie
+</body></html>
